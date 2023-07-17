@@ -22,7 +22,7 @@ title {{title}}
 `
 	snippetSkinParamDefault = `
 skinparam {
-  shadowing false
+  shadowing true
   arrowFontSize 10
   defaultTextAlignment center
   wrapWidth 200
@@ -32,11 +32,14 @@ hide stereotype
 top to bottom direction
 
 scale 4096 width
+
+skinparam titleFontSize 18  // Cambio de tamaño de fuente del título
+
 `
 	snippetSkinParamGroup = `
 skinparam rectangle<<_GROUP>> {
   FontColor #ffffff
-  BorderColor #ffffff
+  BorderColor #E5E8E8
 }
 `
 	snippetSkinParamShape = `

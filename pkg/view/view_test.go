@@ -29,7 +29,7 @@ func TestNewView_empty(t *testing.T) {
 title TITLE UNDEFINED
 
 skinparam {
-  shadowing false
+  shadowing true
   arrowFontSize 10
   defaultTextAlignment center
   wrapWidth 200
@@ -40,9 +40,12 @@ top to bottom direction
 
 scale 4096 width
 
+skinparam titleFontSize 18  // Cambio de tamaño de fuente del título
+
+
 skinparam rectangle<<_GROUP>> {
   FontColor #ffffff
-  BorderColor #ffffff
+  BorderColor #E5E8E8
 }
 
 @enduml
