@@ -217,8 +217,8 @@ func (s *scraper) addComponent(
 	c := model.Component{
 		ID:          componentID(v),
 		Kind:        info.Kind,
-		Name:        info.Name,
-		Description: info.Description,
+		Name:        info.Description,
+		Description: info.Name,
 		Technology:  info.Technology,
 		Tags:        info.Tags,
 	}
